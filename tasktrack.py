@@ -16,8 +16,11 @@ def display_menu():
 
 def add_task(tasks):
     """Prompt the user for a task and add it to the task list."""
-    task = input("Enter a new task: ")
-    #TODO: Use append() to add task to the tasks list.
+    task = input("Enter a new task: ").strip()
+    if not task:
+        print("A task cannot be empty.")
+        return
+    
     tasks.append(task)
     #TODO: Print "Task added successfully."
     print("Task added successfully.")
