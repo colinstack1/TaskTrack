@@ -65,3 +65,8 @@ Tasks:
 * Tasks cannot currently be deleted.
 * Existing tasks cannot currently be edited.
 * Tasks cannot be marked as completed.
+
+
+## Version Control
+
+TaskTrack uses Git for local version control and Github as the remote repository. Changes to the project can be saved locally with a commit. A Push sends local commits to the Github repository, while a pull downloads the changes from Github and updates to the local copy of the project
