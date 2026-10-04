@@ -90,7 +90,7 @@ def remove_task(tasks):
     task_number = int(selection)
 
     if task_number < 1 or task_number > len(tasks):
-        print("That task number does not exist.")
+        print("That task number does not exist. Please select a valid number show in the displayed message.")
         return False
 
     removed_task = tasks.pop(task_number - 1)
